@@ -22,3 +22,5 @@ To use this in your pico project:
 * At least version 3.13 of CMake is needed, make sure the main CMakeLists.txt begins with a<br>
 `cmake_minimum_required(VERSION 3.13)` (or later) line to correctly set policies.
 * use `#include "DS3231_HAL.h"` as needed.
+
+This code is licensed under BSD-3-Clause license.
