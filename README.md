@@ -9,6 +9,7 @@ Provided functions:
 * GetRtcTemp()
 * EnableRtc32kHz()
 * ClearRtcAlarm()
+
 TODO:
 * SetRtcAlarm()
 
