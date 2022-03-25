@@ -11,6 +11,10 @@
 
 #include "pico/time.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef enum RtcIrqRate_
 {
     RtcSqw1Hz    = 0x00u, /* These are the RS1 and RS2 values, square wawe */
@@ -63,4 +67,8 @@ extern bool EnableRtc32kHz(bool enable);
 /* Clears the alarm interrupt flags */
 extern bool ClearRtcAlarm(void);
 
+#ifdef __cplusplus
+}
+#endif
+    
 #endif
